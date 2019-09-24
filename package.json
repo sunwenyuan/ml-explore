@@ -1,0 +1,21 @@
+{
+  "name": "ml-explore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "kmean": "ts-node ./src/kmean/index.ts",
+    "knn": "ts-node ./src/knn/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.7",
+    "jimp": "0.2.28"
+  }
+}
